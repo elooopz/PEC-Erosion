@@ -99,3 +99,40 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+/* Carousel Styling and CSS movements*/
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-slide {
+    flex: 0 0 auto;
+    display: none;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
