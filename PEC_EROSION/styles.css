@@ -103,23 +103,23 @@ footer {
 /* Carousel Styling and CSS movements*/
 .carousel {
     display: flex;
+    justify-content: center; /* Center align the carousel horizontally */
     overflow: hidden;
-    width: 100%;
 }
 
 .carousel-slide {
     flex: 0 0 auto;
     display: none;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
 .carousel-slide img {
     width: 100%;
     height: auto;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
-
+/* Adjusted position of previous and next buttons */
 .prev,
 .next {
     position: absolute;
@@ -130,13 +130,13 @@ footer {
     border: none;
     cursor: pointer;
     padding: 10px;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 .prev {
-    left: 20px; 
+    left: 20px;
 }
 
 .next {
-    right: 20px; 
+    right: 20px;
 }
