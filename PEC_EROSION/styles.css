@@ -104,7 +104,7 @@ footer {
 .carousel {
     display: flex;
     overflow: hidden;
-    width: 100%;
+    width: 50%;
 }
 
 .carousel-slide {
