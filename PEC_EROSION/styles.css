@@ -104,18 +104,21 @@ footer {
 .carousel {
     display: flex;
     overflow: hidden;
-    width: 50%;
+    width: 100%;
 }
 
 .carousel-slide {
     flex: 0 0 auto;
     display: none;
+    border-radius: 10px; 
 }
 
 .carousel-slide img {
     width: 100%;
     height: auto;
+    border-radius: 10px; 
 }
+
 
 .prev,
 .next {
@@ -127,12 +130,13 @@ footer {
     border: none;
     cursor: pointer;
     padding: 10px;
+    border-radius: 50%; 
 }
 
 .prev {
-    left: 0;
+    left: 20px; 
 }
 
 .next {
-    right: 0;
+    right: 20px; 
 }
