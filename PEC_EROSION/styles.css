@@ -154,25 +154,34 @@ footer {
 /* media queries */
 
 @media (max-width: 768px) {
-    .hero {
-        padding: 50px 0;
-        margin-top: 50px; /* Adjust based on header height */
+    header {
+        padding: 0.5em 0; /* Reduce header padding */
     }
     
-    .hero h1 {
-        font-size: 2em;
+    .logo {
+        font-size: 1.2em; /* Reduce logo font size */
     }
-    
-    .hero p {
-        font-size: 1em;
-    }
-    
+
     .nav-links {
         flex-direction: column;
         align-items: flex-start;
+        padding: 0;
+    }
+
+    .nav-links li {
+        margin: 10px 0; /* Reduce spacing between links */
     }
     
-    .nav-links li {
-        margin: 10px 0;
+    .hero {
+        padding: 50px 0; /* Reduce hero padding */
+        margin-top: 50px; /* Adjust based on reduced header height */
+    }
+    
+    .hero h1 {
+        font-size: 2em; /* Reduce hero heading size */
+    }
+    
+    .hero p {
+        font-size: 1em; /* Reduce hero paragraph size */
     }
 }
