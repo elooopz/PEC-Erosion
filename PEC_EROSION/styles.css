@@ -153,13 +153,13 @@ footer {
 
 /* media queries */
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
     header {
-        padding: 0.5em 0; /* Reduce header padding */
+        padding: 0.5em 0;
     }
     
     .logo {
-        font-size: 1.2em; /* Reduce logo font size */
+        font-size: 1.2em;
     }
 
     .nav-links {
@@ -169,19 +169,19 @@ footer {
     }
 
     .nav-links li {
-        margin: 10px 0; /* Reduce spacing between links */
+        margin: 10px 0; 
     }
     
     .hero {
-        padding: 50px 0; /* Reduce hero padding */
-        margin-top: 50px; /* Adjust based on reduced header height */
+     
+        margin-top: 50px;
     }
     
     .hero h1 {
-        font-size: 2em; /* Reduce hero heading size */
+        font-size: 2em; 
     }
     
     .hero p {
-        font-size: 1em; /* Reduce hero paragraph size */
+        font-size: 1em; 
     }
 }
